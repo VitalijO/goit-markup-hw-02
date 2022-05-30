@@ -10,7 +10,7 @@ body {
 
     background-color: var(--body-light-color);
     color: var(--common-text-color);
-    font-family: 'Roboto', 'Raleway',sans-serif;
+    font-family: 'Roboto', 'Raleway', sans-serif;
 }
 /* -------------------------------------------REMOVE DOT IN LIST, yes I know...but it's easier  )) ------------------------*/
 ul{
@@ -29,6 +29,7 @@ ul{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    font-style: normal;
 }
  
 .logo-first-part{
@@ -46,16 +47,10 @@ ul{
 
 /* -------------------------------------------HEADER-------------------------------------------------------------------------*/
 
-/*  .item-studio,
-.item-portfolio-accent,
-.item-studio-accent,
-.item-contacts,
-.item-portfolio  
-*/
 
 .header{
   
-    background-color: #ffffff;
+    background-color: #fff;
 }
  
 .menu,
@@ -72,8 +67,6 @@ ul{
     text-decoration: var(--accent-color);
     color: var(--accent-color);
 }
-
-
 
 .email,
 .phon {
@@ -173,8 +166,6 @@ ul{
 .filter-button:focus,
 .filter-button-accent {
     text-decoration: none;
-   ;
-
 }
 
 /* -------------------------------------------PROJECTS LIST PORTFOLIO PAGE----------------------------------------------------------*/
@@ -272,19 +263,19 @@ color:var(--common-text-color);
     color: var(--title-text-color);
     text-decoration: none;
 }
-text-transform: uppercase;
+
 
 .team-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    letter-spacing: 0.03em;  
 }
 
 .team-title-lower{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19; 
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19; 
 }
 
 
@@ -292,8 +283,8 @@ text-transform: uppercase;
     font-size: 16px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color:var(--common-text-color)
-    text-decoration: none;
+    color:var(--common-text-color);
+    text-decoration:none;
 }
 .team-title:hover,
 .team-title-lower:hover,
@@ -305,20 +296,23 @@ text-transform: uppercase;
 
 /* -------------------------------------------FOUTER------------------------------------------------------------------------*/
 .footer{
-  
     background-color: var(--body-dark-color);
+}
 
+.footer >.logo {
+    color: #fff;
 }
 
 .footer-address,
 .footer-email,
 .footer-phon{
     text-decoration: var(--accent-color);
- 
+    font-style: normal;  
     font-size: 14px;
-    line-height: 1.71;
+    line-height:1.71;
     letter-spacing: 0.03em;
 }
+
 .footer-address{
     color: #FFFFFF;
 }
